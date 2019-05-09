@@ -1,0 +1,79 @@
+1. Why is Angular 2?
+
+	Performance
+	MobileSupport
+	Component based Development
+
+
+2. What is ECMAScript?
+
+	Javascript language standards officially called ECMAScript
+	ES1 to ES7
+	Modren browsers supports for ES5
+	Traspilation cmpoile ES6 to ES5
+	ES6 officially called ES2015
+	New features of ES5 is classes
+
+3. What is TypeScript?
+	Free and open-source programming language developed by Microsoft
+	Superset of Javascript
+	Traspilation compiles Typescript to Javascript.
+
+
+4. TypeScript Benifits?
+
+
+5. What is Component?
+
+    A Component in Angular is a class with Template and decorator.
+
+    It is composed of Class, Template and Decorator
+
+    Template defines the User Interface.Contains HTML, Directives and data bindings.
+    Class contains the code required for template
+    Decorator adds meta data to the class making it an angular component.
+ 
+ 6. Difference between Template and Template Url?
+
+ 7. Nested Components?
+
+
+ 8. What are the options for styling angular components?
+	i). Styles in external style sheet
+	ii). Styles inside the component HTML file.
+	iii). Styles in the component HTML file using <style> tag
+	iv). Specify the styles using the @Component decorator style property.
+	v). Specify the styles using the @Component decorator stylesUrl property.
+
+9. What is Interpolation in Angular?
+
+	It is catogarized into three types.
+	i). One- way-data binding ==> From Component to View
+	ii). One-way-databinding ==> from view to Component
+	iii). two way data binding ==> From component to view template & From view to Component template.
+
+
+ 10. What is the difference between Interpolation and Property binding?
+
+	i). Bothe Interpolation and Property binding flows a data value in one direction. That is from a component class properties to an HTML element property
+
+	ii). Interpolation is a special syntax that Angular converts into a property binding.
+	iii). To concatinate Strings we must use interpolation instead of property binding.
+	Eg: <img src = "http://www.gsrti.com/{{imagePath}}">
+
+11. What is the differenece between HTML Attributes VS DOM Property.
+
+	i). Attributes are defined by the HTML and properties are defined by the DOM.
+	ii). Property values can be changed. But attribute values Can't.
+	iii). Attributes initialize DOM Properties. Once the initialization complete, the attribute job is done.
+	iv). Angular binding works with properties and events. Not with attribute.
+
+12. What is Attribute Binding?
+	
+	i). Interpolation and Property binding deals with Component class properties into HTML element properties and NOT Attributes.
+	ii). But not all HTML element attributes have corresponding properties. For example colspan attribute does not have a corresponding property.
+
+
+
+
+	
